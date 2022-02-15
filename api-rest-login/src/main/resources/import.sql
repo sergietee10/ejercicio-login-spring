@@ -1,0 +1,11 @@
+INSERT INTO departamentos (nombre, ubicacion) VALUES("Informatica", "Planta baja");
+INSERT INTO departamentos (nombre, ubicacion) VALUES("Matematicas", "Planta Primera");
+INSERT INTO departamentos (nombre, ubicacion) VALUES("Biologia", "Planta Tercera");
+INSERT INTO jefes (dni, nombre, salario, telefono, departamento_id) VALUES("2141241Q", "Marta", 6000, 9675473, 1);
+INSERT INTO jefes (dni, nombre, salario, telefono, departamento_id) VALUES("5135612R", "Mario", 7000, 453452, 2);
+INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("22415115A", "Sergio", 2000, 6346363, 1);
+INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("2515115A", "Maria", 1000, 54363, 2);
+INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("26342415E", "Juan", 5000, 7543, 2);
+INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("27564151T", "Carlos", 3000, 2324, 3);
+INSERT INTO login (dni, contraseña) VALUES("2141241Q", "1234");
+INSERT INTO login (dni, contraseña) VALUES("5135612R", "123");
