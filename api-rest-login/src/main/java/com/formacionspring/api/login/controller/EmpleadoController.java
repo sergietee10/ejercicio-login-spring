@@ -106,7 +106,7 @@ public class EmpleadoController {
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 
 		}
-		response.put("mensaje", "El departamento ha sido actualizado con éxito!");
+		response.put("mensaje", "El empleado ha sido actualizado con éxito!");
 		response.put("empleado", empleadoActual);
 
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);

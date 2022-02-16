@@ -9,3 +9,14 @@ INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("
 INSERT INTO empleados (dni, nombre, salario, telefono, departamento_id) VALUES("27564151T", "Carlos", 3000, 2324, 3);
 INSERT INTO login (dni, contraseña) VALUES("2141241Q", "1234");
 INSERT INTO login (dni, contraseña) VALUES("5135612R", "123");
+
+
+INSERT INTO usuarios (username,password,enabled) VALUES ('sergio','$2a$10$myJ.ZUAz/DCxNAFMf3.y4O08ZqcDKIgF6RfbMRvP0PaP3U4fo3RVe',1);
+INSERT INTO usuarios (username,password,enabled) VALUES ('admin','$2a$10$JGH.9j/rfTbByT3SsgsRHObTIyz7K4rWdQ8Knos2NjytyP2hL8zFy',1);
+
+INSERT INTO roles (nombre) VALUES('ROLE_USER');
+INSERT INTO roles (nombre) VALUES('ROLE_ADMIN');
+
+INSERT INTO usuarios_roles (usuario_id,role_id) VALUES(1,1);
+INSERT INTO usuarios_roles (usuario_id,role_id) VALUES(2,2);
+INSERT INTO usuarios_roles (usuario_id,role_id) VALUES(2,1);
